@@ -5,6 +5,7 @@ import { ButtomPrimaryComponent } from '../buttom-primary/buttom-primary.compone
 import { NewsFormComponent } from '../news-form/news-form.component';
 import { TeamComponent } from '../team/team.component';
 import { ContactComponent } from '../contact/contact.component';
+import { FooterComponent } from '../footer/footer.component';
 
 
 @Component({
@@ -16,12 +17,14 @@ import { ContactComponent } from '../contact/contact.component';
     ButtomPrimaryComponent, 
     NewsFormComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   providers: [], 
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
+
 export class HomeComponent {
 
 }
