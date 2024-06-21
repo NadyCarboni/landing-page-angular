@@ -1,0 +1,14 @@
+@import '../../../color-variables.scss';
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h2 {
+        font-size: 60px;
+        margin-bottom: 49px;
+        
+    }
+}

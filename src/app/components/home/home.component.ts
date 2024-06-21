@@ -4,6 +4,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { ButtomPrimaryComponent } from '../buttom-primary/buttom-primary.component';
 import { NewsFormComponent } from '../news-form/news-form.component';
 import { TeamComponent } from '../team/team.component';
+import { ContactComponent } from '../contact/contact.component';
 
 
 @Component({
@@ -14,7 +15,8 @@ import { TeamComponent } from '../team/team.component';
     NgOptimizedImage, 
     ButtomPrimaryComponent, 
     NewsFormComponent,
-    TeamComponent
+    TeamComponent,
+    ContactComponent
   ],
   providers: [], 
   templateUrl: './home.component.html',

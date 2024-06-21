@@ -1,13 +1,12 @@
 @import '../../../color-variables.scss';
 .team-section {
     display: flex;
-    gap: 42px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     .texts {
         max-width: 609px;
-
         h3 {
             color: $primary-text;
             font-size: 32px;
@@ -19,6 +18,11 @@
             font-size: 16px;
         }
     }
-    
-    
+}
+
+@media (min-width: 1080px) {
+    .team-section {
+        flex-direction: row;
+        gap: 42px;
+    }
 }
